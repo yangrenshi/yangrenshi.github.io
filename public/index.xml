@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>小机学AI</title><link>https://yangrenshi.github.io/</link><description>Recent content on 小机学AI</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yangrenshi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>人工智能入门指南</title><link>https://yangrenshi.github.io/post/ai-introduction/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://yangrenshi.github.io/post/ai-introduction/</guid><description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 人工智能入门指南" />&lt;h2 id="什么是人工智能">什么是人工智能？
+&lt;/h2>&lt;p>人工智能（Artificial Intelligence，简称AI）是一门研究如何让计算机模拟和展现人类智能的科学。它包括：&lt;/p>
+&lt;ul>
+&lt;li>机器学习&lt;/li>
+&lt;li>深度学习&lt;/li>
+&lt;li>自然语言处理&lt;/li>
+&lt;li>计算机视觉&lt;/li>
+&lt;li>专家系统&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai的主要应用领域">AI的主要应用领域
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>自然语言处理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>机器翻译&lt;/li>
+&lt;li>语音识别&lt;/li>
+&lt;li>文本生成&lt;/li>
+&lt;li>问答系统&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>计算机视觉&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>图像识别&lt;/li>
+&lt;li>目标检测&lt;/li>
+&lt;li>人脸识别&lt;/li>
+&lt;li>视频分析&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>机器人技术&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>工业机器人&lt;/li>
+&lt;li>服务机器人&lt;/li>
+&lt;li>自动驾驶&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="如何开始学习ai">如何开始学习AI？
+&lt;/h2>&lt;h3 id="1-基础知识准备">1. 基础知识准备
+&lt;/h3>&lt;ul>
+&lt;li>Python编程&lt;/li>
+&lt;li>数学基础（线性代数、概率统计、微积分）&lt;/li>
+&lt;li>数据结构与算法&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-入门框架学习">2. 入门框架学习
+&lt;/h3>&lt;ul>
+&lt;li>TensorFlow&lt;/li>
+&lt;li>PyTorch&lt;/li>
+&lt;li>scikit-learn&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-实践项目">3. 实践项目
+&lt;/h3>&lt;ul>
+&lt;li>图像分类&lt;/li>
+&lt;li>文本分析&lt;/li>
+&lt;li>预测模型&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源推荐">学习资源推荐
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>在线课程&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Coursera机器学习课程&lt;/li>
+&lt;li>吴恩达深度学习专项课程&lt;/li>
+&lt;li>Fast.ai实战课程&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>推荐书籍&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>《深度学习》(花书)&lt;/li>
+&lt;li>《机器学习实战》&lt;/li>
+&lt;li>《Python机器学习》&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>实践平台&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Kaggle&lt;/li>
+&lt;li>GitHub&lt;/li>
+&lt;li>Google Colab&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="未来展望">未来展望
+&lt;/h2>&lt;p>AI技术正在快速发展，未来将在更多领域发挥重要作用：&lt;/p>
+&lt;ul>
+&lt;li>医疗诊断&lt;/li>
+&lt;li>智能制造&lt;/li>
+&lt;li>教育个性化&lt;/li>
+&lt;li>环境保护&lt;/li>
+&lt;li>科学研究&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习建议">学习建议
+&lt;/h2>&lt;ol>
+&lt;li>循序渐进，打好基础&lt;/li>
+&lt;li>理论结合实践&lt;/li>
+&lt;li>参与开源项目&lt;/li>
+&lt;li>关注前沿动态&lt;/li>
+&lt;li>坚持学习分享&lt;/li>
+&lt;/ol>
+&lt;p>让我们一起在AI的世界中探索和成长！&lt;/p></description></item><item><title>关于我</title><link>https://yangrenshi.github.io/about/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://yangrenshi.github.io/about/</guid><description>&lt;h2 id="个人简介">个人简介
+&lt;/h2>&lt;p>你好，我是小机学AI大模型，一个热爱AI技术的00后学习者和实践者。&lt;/p>
+&lt;ul>
+&lt;li>🎓 机器人专业大四在读&lt;/li>
+&lt;li>🏆 曾获省级奖学金、国家奖学金&lt;/li>
+&lt;li>📍 坐标：四川绵阳&lt;/li>
+&lt;li>💡 终身学习者，对AI充满热情&lt;/li>
+&lt;/ul>
+&lt;h2 id="个人成就">个人成就
+&lt;/h2>&lt;h3 id="内容创作">内容创作
+&lt;/h3>&lt;ul>
+&lt;li>📝 文章阅读量突破10w+&lt;/li>
+&lt;li>🎥 视频号播放量突破100w&lt;/li>
+&lt;li>📈 知乎AI领域7级认证&lt;/li>
+&lt;li>🌟 AI公众号三天开通流量主&lt;/li>
+&lt;/ul>
+&lt;h3 id="商业实践">商业实践
+&lt;/h3>&lt;ul>
+&lt;li>💰 半个月内副业变现并同时知识付费5位数&lt;/li>
+&lt;li>💻 AI代写/编程变现四位数&lt;/li>
+&lt;li>🤝 多个AI项目合作经验&lt;/li>
+&lt;/ul>
+&lt;h2 id="专业技能">专业技能
+&lt;/h2>&lt;h3 id="ai领域">AI领域
+&lt;/h3>&lt;ul>
+&lt;li>大模型应用与开发&lt;/li>
+&lt;li>AI提示词工程&lt;/li>
+&lt;li>智能体系统开发&lt;/li>
+&lt;li>GPT/Claude等模型应用&lt;/li>
+&lt;/ul>
+&lt;h3 id="技术栈">技术栈
+&lt;/h3>&lt;ul>
+&lt;li>深度学习框架&lt;/li>
+&lt;li>机器学习算法&lt;/li>
+&lt;li>Python编程&lt;/li>
+&lt;li>机器人技术&lt;/li>
+&lt;/ul>
+&lt;h2 id="我能提供">我能提供
+&lt;/h2>&lt;h3 id="培训服务">培训服务
+&lt;/h3>&lt;ul>
+&lt;li>🎯 AI提示词定制&lt;/li>
+&lt;li>📚 AI大模型系统学习&lt;/li>
+&lt;li>🤖 智能体专栏课程&lt;/li>
+&lt;li>📊 知乎训练营&lt;/li>
+&lt;/ul>
+&lt;h3 id="技术服务">技术服务
+&lt;/h3>&lt;ul>
+&lt;li>💻 程序开发&lt;/li>
+&lt;li>🤖 AI应用定制&lt;/li>
+&lt;li>📝 技术文档编写&lt;/li>
+&lt;li>🔧 技术问题咨询&lt;/li>
+&lt;/ul>
+&lt;h3 id="社群服务">社群服务
+&lt;/h3>&lt;ul>
+&lt;li>👥 AI交流群（限免）&lt;/li>
+&lt;li>📱 公众号互助群&lt;/li>
+&lt;li>💬 技术答疑解惑&lt;/li>
+&lt;li>🤝 项目合作交流&lt;/li>
+&lt;/ul>
+&lt;h2 id="个人愿景">个人愿景
+&lt;/h2>&lt;ol>
+&lt;li>帮助更多小白入门AI领域&lt;/li>
+&lt;li>与优秀自媒体同行共同进步&lt;/li>
+&lt;li>推动AI技术的普及和发展&lt;/li>
+&lt;li>成为一名有社会责任感的企业家&lt;/li>
+&lt;/ol>
+&lt;h2 id="免费资源">免费资源
+&lt;/h2>&lt;ol>
+&lt;li>🎁 &lt;a class="link" href="https://pan.quark.cn/s/e3568774a953" target="_blank" rel="noopener"
+>AI入门资料&lt;/a>&lt;/li>
+&lt;li>💡 免费AI发展方向分析（原价199元）&lt;/li>
+&lt;li>📖 &lt;a class="link" href="https://mp.weixin.qq.com/s/E6Nkt87oOkmT5VEN-6YXZw" target="_blank" rel="noopener"
+>成功经验分享：20岁大学生靠AI自媒体月入过万&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="联系方式">联系方式
+&lt;/h2>&lt;ul>
+&lt;li>📰 公众号：小机AI大模型&lt;/li>
+&lt;li>🏪 小机杂货铺：AI资源交流&lt;/li>
+&lt;li>💼 商务合作：请通过公众号联系&lt;/li>
+&lt;/ul>
+&lt;h2 id="座右铭">座右铭
+&lt;/h2>&lt;blockquote>
+&lt;p>一天不学习，浑身难受。&lt;/p>
+&lt;p>人生的可能性是无限的，让我们一起在AI的世界中探索和成长！&lt;/p>&lt;/blockquote></description></item><item><title>欢迎来到小机学AI的博客</title><link>https://yangrenshi.github.io/post/welcome/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://yangrenshi.github.io/post/welcome/</guid><description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 欢迎来到小机学AI的博客" />&lt;h2 id="欢迎来到我的博客">欢迎来到我的博客
+&lt;/h2>&lt;p>大家好，欢迎来到小机学AI的个人博客！这是一个专注于AI学习和探索的空间。在这里，我将分享：&lt;/p>
+&lt;ol>
+&lt;li>AI技术学习心得&lt;/li>
+&lt;li>深度学习实践经验&lt;/li>
+&lt;li>机器学习项目案例&lt;/li>
+&lt;li>AI行业最新动态&lt;/li>
+&lt;/ol>
+&lt;h3 id="为什么要写这个博客">为什么要写这个博客？
+&lt;/h3>&lt;p>随着AI技术的快速发展，越来越多的人开始关注这个领域。作为一个AI学习者，我希望通过这个博客：&lt;/p>
+&lt;ul>
+&lt;li>记录学习过程&lt;/li>
+&lt;li>分享实践经验&lt;/li>
+&lt;li>与大家交流讨论&lt;/li>
+&lt;li>共同进步成长&lt;/li>
+&lt;/ul>
+&lt;h3 id="博客内容规划">博客内容规划
+&lt;/h3>&lt;p>未来我会持续更新以下主题的内容：&lt;/p>
+&lt;ul>
+&lt;li>AI基础知识讲解&lt;/li>
+&lt;li>深度学习框架使用教程&lt;/li>
+&lt;li>实用AI项目实践&lt;/li>
+&lt;li>AI行业新闻与趋势分析&lt;/li>
+&lt;/ul>
+&lt;h3 id="期待您的参与">期待您的参与
+&lt;/h3>&lt;p>博客评论区已开启，欢迎大家：&lt;/p>
+&lt;ul>
+&lt;li>分享学习经验&lt;/li>
+&lt;li>提出宝贵建议&lt;/li>
+&lt;li>讨论技术问题&lt;/li>
+&lt;li>交流心得体会&lt;/li>
+&lt;/ul>
+&lt;p>让我们一起在AI的海洋中探索，发现更多可能！&lt;/p></description></item><item><title>搜索</title><link>https://yangrenshi.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yangrenshi.github.io/search/</guid><description/></item></channel></rss>

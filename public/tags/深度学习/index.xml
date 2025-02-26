@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>深度学习 on 小机学AI</title><link>https://yangrenshi.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link><description>Recent content in 深度学习 on 小机学AI</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yangrenshi.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>人工智能入门指南</title><link>https://yangrenshi.github.io/post/ai-introduction/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://yangrenshi.github.io/post/ai-introduction/</guid><description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 人工智能入门指南" />&lt;h2 id="什么是人工智能">什么是人工智能？
+&lt;/h2>&lt;p>人工智能（Artificial Intelligence，简称AI）是一门研究如何让计算机模拟和展现人类智能的科学。它包括：&lt;/p>
+&lt;ul>
+&lt;li>机器学习&lt;/li>
+&lt;li>深度学习&lt;/li>
+&lt;li>自然语言处理&lt;/li>
+&lt;li>计算机视觉&lt;/li>
+&lt;li>专家系统&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai的主要应用领域">AI的主要应用领域
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>自然语言处理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>机器翻译&lt;/li>
+&lt;li>语音识别&lt;/li>
+&lt;li>文本生成&lt;/li>
+&lt;li>问答系统&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>计算机视觉&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>图像识别&lt;/li>
+&lt;li>目标检测&lt;/li>
+&lt;li>人脸识别&lt;/li>
+&lt;li>视频分析&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>机器人技术&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>工业机器人&lt;/li>
+&lt;li>服务机器人&lt;/li>
+&lt;li>自动驾驶&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="如何开始学习ai">如何开始学习AI？
+&lt;/h2>&lt;h3 id="1-基础知识准备">1. 基础知识准备
+&lt;/h3>&lt;ul>
+&lt;li>Python编程&lt;/li>
+&lt;li>数学基础（线性代数、概率统计、微积分）&lt;/li>
+&lt;li>数据结构与算法&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-入门框架学习">2. 入门框架学习
+&lt;/h3>&lt;ul>
+&lt;li>TensorFlow&lt;/li>
+&lt;li>PyTorch&lt;/li>
+&lt;li>scikit-learn&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-实践项目">3. 实践项目
+&lt;/h3>&lt;ul>
+&lt;li>图像分类&lt;/li>
+&lt;li>文本分析&lt;/li>
+&lt;li>预测模型&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源推荐">学习资源推荐
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>在线课程&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Coursera机器学习课程&lt;/li>
+&lt;li>吴恩达深度学习专项课程&lt;/li>
+&lt;li>Fast.ai实战课程&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>推荐书籍&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>《深度学习》(花书)&lt;/li>
+&lt;li>《机器学习实战》&lt;/li>
+&lt;li>《Python机器学习》&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>实践平台&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Kaggle&lt;/li>
+&lt;li>GitHub&lt;/li>
+&lt;li>Google Colab&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="未来展望">未来展望
+&lt;/h2>&lt;p>AI技术正在快速发展，未来将在更多领域发挥重要作用：&lt;/p>
+&lt;ul>
+&lt;li>医疗诊断&lt;/li>
+&lt;li>智能制造&lt;/li>
+&lt;li>教育个性化&lt;/li>
+&lt;li>环境保护&lt;/li>
+&lt;li>科学研究&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习建议">学习建议
+&lt;/h2>&lt;ol>
+&lt;li>循序渐进，打好基础&lt;/li>
+&lt;li>理论结合实践&lt;/li>
+&lt;li>参与开源项目&lt;/li>
+&lt;li>关注前沿动态&lt;/li>
+&lt;li>坚持学习分享&lt;/li>
+&lt;/ol>
+&lt;p>让我们一起在AI的世界中探索和成长！&lt;/p></description></item></channel></rss>
