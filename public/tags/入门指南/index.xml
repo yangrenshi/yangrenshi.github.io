@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>入门指南 on 小机学AI</title>
-        <link>https://yangrenshi.github.io/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
+        <link>http://localhost:52204/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
         <description>Recent content in 入门指南 on 小机学AI</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yangrenshi.github.io/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52204/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>人工智能入门指南</title>
-        <link>https://yangrenshi.github.io/post/ai-introduction/</link>
+        <link>http://localhost:52204/post/ai-introduction/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://yangrenshi.github.io/post/ai-introduction/</guid>
-        <description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 人工智能入门指南" /&gt;&lt;h2 id=&#34;什么是人工智能&#34;&gt;什么是人工智能？
+        <guid>http://localhost:52204/post/ai-introduction/</guid>
+        <description>&lt;img src="http://localhost:52204/img/first.jpg" alt="Featured image of post 人工智能入门指南" /&gt;&lt;h2 id=&#34;什么是人工智能&#34;&gt;什么是人工智能？
 &lt;/h2&gt;&lt;p&gt;人工智能（Artificial Intelligence，简称AI）是一门研究如何让计算机模拟和展现人类智能的科学。它包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;机器学习&lt;/li&gt;
