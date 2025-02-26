@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>AI on 小机学AI</title>
-        <link>http://localhost:1313/tags/ai/</link>
+        <link>https://yangrenshi.github.io/tags/ai/</link>
         <description>Recent content in AI on 小机学AI</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yangrenshi.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>人工智能入门指南</title>
-        <link>http://localhost:1313/post/ai-introduction/</link>
+        <link>https://yangrenshi.github.io/post/ai-introduction/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/ai-introduction/</guid>
-        <description>&lt;img src="http://localhost:1313/img/welcome.jpg" alt="Featured image of post 人工智能入门指南" /&gt;&lt;h2 id=&#34;什么是人工智能&#34;&gt;什么是人工智能？
+        <guid>https://yangrenshi.github.io/post/ai-introduction/</guid>
+        <description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 人工智能入门指南" /&gt;&lt;h2 id=&#34;什么是人工智能&#34;&gt;什么是人工智能？
 &lt;/h2&gt;&lt;p&gt;人工智能（Artificial Intelligence，简称AI）是一门研究如何让计算机模拟和展现人类智能的科学。它包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;机器学习&lt;/li&gt;
@@ -118,11 +118,11 @@
         </item>
         <item>
         <title>欢迎来到小机学AI的博客</title>
-        <link>http://localhost:1313/post/welcome/</link>
+        <link>https://yangrenshi.github.io/post/welcome/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/welcome/</guid>
-        <description>&lt;img src="http://localhost:1313/img/welcome.jpg" alt="Featured image of post 欢迎来到小机学AI的博客" /&gt;&lt;h2 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客
+        <guid>https://yangrenshi.github.io/post/welcome/</guid>
+        <description>&lt;img src="https://yangrenshi.github.io/img/welcome.jpg" alt="Featured image of post 欢迎来到小机学AI的博客" /&gt;&lt;h2 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客
 &lt;/h2&gt;&lt;p&gt;大家好，欢迎来到小机学AI的个人博客！这是一个专注于AI学习和探索的空间。在这里，我将分享：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;AI技术学习心得&lt;/li&gt;
