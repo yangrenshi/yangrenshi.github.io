@@ -27,8 +27,9 @@ theme = 'stack'
   [params.sidebar]
     emoji = "🤖"
     subtitle = "探索AI的无限可能"
+    compact = false
 
-  [params.sidebar.avatar]
+[params.sidebar.avatar]
     enabled = true
     local = true
     src = "img/avatar.png"
