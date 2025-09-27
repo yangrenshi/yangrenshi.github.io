@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>AI on 小机学AI</title>
-        <link>http://localhost:52204/tags/ai/</link>
-        <description>Recent content in AI on 小机学AI</description>
+        <title>AI on Xiaoji AI Learning</title>
+        <link>http://localhost:1313/tags/ai/</link>
+        <description>Recent content in AI on Xiaoji AI Learning</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52204/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>人工智能入门指南</title>
-        <link>http://localhost:52204/post/ai-introduction/</link>
+        <language>en</language>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Artificial Intelligence Beginner&#39;s Guide</title>
+        <link>http://localhost:1313/post/ai-introduction/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/post/ai-introduction/</guid>
-        <description>&lt;img src="http://localhost:52204/img/first.jpg" alt="Featured image of post 人工智能入门指南" /&gt;&lt;h2 id=&#34;什么是人工智能&#34;&gt;什么是人工智能？
-&lt;/h2&gt;&lt;p&gt;人工智能（Artificial Intelligence，简称AI）是一门研究如何让计算机模拟和展现人类智能的科学。它包括：&lt;/p&gt;
+        <guid>http://localhost:1313/post/ai-introduction/</guid>
+        <description>&lt;img src="http://localhost:1313/img/first.jpg" alt="Featured image of post Artificial Intelligence Beginner&#39;s Guide" /&gt;&lt;h2 id=&#34;what-is-artificial-intelligence&#34;&gt;What is Artificial Intelligence?
+&lt;/h2&gt;&lt;p&gt;Artificial Intelligence (AI) is a science that studies how to make computers simulate and demonstrate human intelligence. It includes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;机器学习&lt;/li&gt;
-&lt;li&gt;深度学习&lt;/li&gt;
-&lt;li&gt;自然语言处理&lt;/li&gt;
-&lt;li&gt;计算机视觉&lt;/li&gt;
-&lt;li&gt;专家系统&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Computer Vision&lt;/li&gt;
+&lt;li&gt;Expert Systems&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ai的主要应用领域&#34;&gt;AI的主要应用领域
+&lt;h2 id=&#34;main-application-areas-of-ai&#34;&gt;Main Application Areas of AI
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;自然语言处理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Natural Language Processing&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;机器翻译&lt;/li&gt;
-&lt;li&gt;语音识别&lt;/li&gt;
-&lt;li&gt;文本生成&lt;/li&gt;
-&lt;li&gt;问答系统&lt;/li&gt;
+&lt;li&gt;Machine Translation&lt;/li&gt;
+&lt;li&gt;Speech Recognition&lt;/li&gt;
+&lt;li&gt;Text Generation&lt;/li&gt;
+&lt;li&gt;Question Answering Systems&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;计算机视觉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Computer Vision&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;图像识别&lt;/li&gt;
-&lt;li&gt;目标检测&lt;/li&gt;
-&lt;li&gt;人脸识别&lt;/li&gt;
-&lt;li&gt;视频分析&lt;/li&gt;
+&lt;li&gt;Image Recognition&lt;/li&gt;
+&lt;li&gt;Object Detection&lt;/li&gt;
+&lt;li&gt;Face Recognition&lt;/li&gt;
+&lt;li&gt;Video Analysis&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;机器人技术&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Robotics&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;工业机器人&lt;/li&gt;
-&lt;li&gt;服务机器人&lt;/li&gt;
-&lt;li&gt;自动驾驶&lt;/li&gt;
+&lt;li&gt;Industrial Robots&lt;/li&gt;
+&lt;li&gt;Service Robots&lt;/li&gt;
+&lt;li&gt;Autonomous Driving&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;如何开始学习ai&#34;&gt;如何开始学习AI？
-&lt;/h2&gt;&lt;h3 id=&#34;1-基础知识准备&#34;&gt;1. 基础知识准备
+&lt;h2 id=&#34;how-to-start-learning-ai&#34;&gt;How to Start Learning AI?
+&lt;/h2&gt;&lt;h3 id=&#34;1-basic-knowledge-preparation&#34;&gt;1. Basic Knowledge Preparation
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Python编程&lt;/li&gt;
-&lt;li&gt;数学基础（线性代数、概率统计、微积分）&lt;/li&gt;
-&lt;li&gt;数据结构与算法&lt;/li&gt;
+&lt;li&gt;Python Programming&lt;/li&gt;
+&lt;li&gt;Mathematical Foundation (Linear Algebra, Probability Statistics, Calculus)&lt;/li&gt;
+&lt;li&gt;Data Structures and Algorithms&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;2-入门框架学习&#34;&gt;2. 入门框架学习
+&lt;h3 id=&#34;2-entry-framework-learning&#34;&gt;2. Entry Framework Learning
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;TensorFlow&lt;/li&gt;
 &lt;li&gt;PyTorch&lt;/li&gt;
 &lt;li&gt;scikit-learn&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;3-实践项目&#34;&gt;3. 实践项目
+&lt;h3 id=&#34;3-practical-projects&#34;&gt;3. Practical Projects
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;图像分类&lt;/li&gt;
-&lt;li&gt;文本分析&lt;/li&gt;
-&lt;li&gt;预测模型&lt;/li&gt;
+&lt;li&gt;Image Classification&lt;/li&gt;
+&lt;li&gt;Text Analysis&lt;/li&gt;
+&lt;li&gt;Predictive Models&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;学习资源推荐&#34;&gt;学习资源推荐
+&lt;h2 id=&#34;recommended-learning-resources&#34;&gt;Recommended Learning Resources
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;在线课程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Online Courses&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Coursera机器学习课程&lt;/li&gt;
-&lt;li&gt;吴恩达深度学习专项课程&lt;/li&gt;
-&lt;li&gt;Fast.ai实战课程&lt;/li&gt;
+&lt;li&gt;Coursera Machine Learning Course&lt;/li&gt;
+&lt;li&gt;Andrew Ng&amp;rsquo;s Deep Learning Specialization&lt;/li&gt;
+&lt;li&gt;Fast.ai Practical Course&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;推荐书籍&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recommended Books&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;《深度学习》(花书)&lt;/li&gt;
-&lt;li&gt;《机器学习实战》&lt;/li&gt;
-&lt;li&gt;《Python机器学习》&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Deep Learning&amp;rdquo; (Goodfellow, Bengio, Courville)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Machine Learning in Action&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Python Machine Learning&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;实践平台&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Practice Platforms&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Kaggle&lt;/li&gt;
 &lt;li&gt;GitHub&lt;/li&gt;
@@ -96,65 +96,65 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;未来展望&#34;&gt;未来展望
-&lt;/h2&gt;&lt;p&gt;AI技术正在快速发展，未来将在更多领域发挥重要作用：&lt;/p&gt;
+&lt;h2 id=&#34;future-outlook&#34;&gt;Future Outlook
+&lt;/h2&gt;&lt;p&gt;AI technology is developing rapidly and will play an important role in more fields in the future:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;医疗诊断&lt;/li&gt;
-&lt;li&gt;智能制造&lt;/li&gt;
-&lt;li&gt;教育个性化&lt;/li&gt;
-&lt;li&gt;环境保护&lt;/li&gt;
-&lt;li&gt;科学研究&lt;/li&gt;
+&lt;li&gt;Medical Diagnosis&lt;/li&gt;
+&lt;li&gt;Smart Manufacturing&lt;/li&gt;
+&lt;li&gt;Personalized Education&lt;/li&gt;
+&lt;li&gt;Environmental Protection&lt;/li&gt;
+&lt;li&gt;Scientific Research&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;学习建议&#34;&gt;学习建议
+&lt;h2 id=&#34;learning-suggestions&#34;&gt;Learning Suggestions
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;循序渐进，打好基础&lt;/li&gt;
-&lt;li&gt;理论结合实践&lt;/li&gt;
-&lt;li&gt;参与开源项目&lt;/li&gt;
-&lt;li&gt;关注前沿动态&lt;/li&gt;
-&lt;li&gt;坚持学习分享&lt;/li&gt;
+&lt;li&gt;Progress step by step, build a solid foundation&lt;/li&gt;
+&lt;li&gt;Combine theory with practice&lt;/li&gt;
+&lt;li&gt;Participate in open source projects&lt;/li&gt;
+&lt;li&gt;Follow cutting-edge developments&lt;/li&gt;
+&lt;li&gt;Persist in learning and sharing&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;让我们一起在AI的世界中探索和成长！&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s explore and grow together in the world of AI!&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>欢迎来到小机学AI的博客</title>
-        <link>http://localhost:52204/post/welcome/</link>
+        <title>Welcome to Xiaoji AI Learning Blog</title>
+        <link>http://localhost:1313/post/welcome/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/post/welcome/</guid>
-        <description>&lt;img src="http://localhost:52204/img/welcome.jpg" alt="Featured image of post 欢迎来到小机学AI的博客" /&gt;&lt;h2 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客
-&lt;/h2&gt;&lt;p&gt;大家好，欢迎来到小机学AI的个人博客！这是一个专注于AI学习和探索的空间。在这里，我将分享：&lt;/p&gt;
+        <guid>http://localhost:1313/post/welcome/</guid>
+        <description>&lt;img src="http://localhost:1313/img/welcome.jpg" alt="Featured image of post Welcome to Xiaoji AI Learning Blog" /&gt;&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog
+&lt;/h2&gt;&lt;p&gt;Hello everyone, welcome to Xiaoji AI Learning&amp;rsquo;s personal blog! This is a space dedicated to AI learning and exploration. Here, I will share:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;AI技术学习心得&lt;/li&gt;
-&lt;li&gt;深度学习实践经验&lt;/li&gt;
-&lt;li&gt;机器学习项目案例&lt;/li&gt;
-&lt;li&gt;AI行业最新动态&lt;/li&gt;
+&lt;li&gt;AI technology learning insights&lt;/li&gt;
+&lt;li&gt;Deep learning practical experiences&lt;/li&gt;
+&lt;li&gt;Machine learning project cases&lt;/li&gt;
+&lt;li&gt;Latest AI industry trends&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;为什么要写这个博客&#34;&gt;为什么要写这个博客？
-&lt;/h3&gt;&lt;p&gt;随着AI技术的快速发展，越来越多的人开始关注这个领域。作为一个AI学习者，我希望通过这个博客：&lt;/p&gt;
+&lt;h3 id=&#34;why-write-this-blog&#34;&gt;Why Write This Blog?
+&lt;/h3&gt;&lt;p&gt;With the rapid development of AI technology, more and more people are paying attention to this field. As an AI learner, I hope to use this blog to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;记录学习过程&lt;/li&gt;
-&lt;li&gt;分享实践经验&lt;/li&gt;
-&lt;li&gt;与大家交流讨论&lt;/li&gt;
-&lt;li&gt;共同进步成长&lt;/li&gt;
+&lt;li&gt;Record the learning process&lt;/li&gt;
+&lt;li&gt;Share practical experiences&lt;/li&gt;
+&lt;li&gt;Exchange and discuss with everyone&lt;/li&gt;
+&lt;li&gt;Grow and progress together&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;博客内容规划&#34;&gt;博客内容规划
-&lt;/h3&gt;&lt;p&gt;未来我会持续更新以下主题的内容：&lt;/p&gt;
+&lt;h3 id=&#34;blog-content-planning&#34;&gt;Blog Content Planning
+&lt;/h3&gt;&lt;p&gt;In the future, I will continuously update content on the following topics:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;AI基础知识讲解&lt;/li&gt;
-&lt;li&gt;深度学习框架使用教程&lt;/li&gt;
-&lt;li&gt;实用AI项目实践&lt;/li&gt;
-&lt;li&gt;AI行业新闻与趋势分析&lt;/li&gt;
+&lt;li&gt;AI basic knowledge explanations&lt;/li&gt;
+&lt;li&gt;Deep learning framework usage tutorials&lt;/li&gt;
+&lt;li&gt;Practical AI project practices&lt;/li&gt;
+&lt;li&gt;AI industry news and trend analysis&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;期待您的参与&#34;&gt;期待您的参与
-&lt;/h3&gt;&lt;p&gt;博客评论区已开启，欢迎大家：&lt;/p&gt;
+&lt;h3 id=&#34;looking-forward-to-your-participation&#34;&gt;Looking Forward to Your Participation
+&lt;/h3&gt;&lt;p&gt;The blog comment section is now open. Everyone is welcome to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;分享学习经验&lt;/li&gt;
-&lt;li&gt;提出宝贵建议&lt;/li&gt;
-&lt;li&gt;讨论技术问题&lt;/li&gt;
-&lt;li&gt;交流心得体会&lt;/li&gt;
+&lt;li&gt;Share learning experiences&lt;/li&gt;
+&lt;li&gt;Provide valuable suggestions&lt;/li&gt;
+&lt;li&gt;Discuss technical issues&lt;/li&gt;
+&lt;li&gt;Exchange insights and experiences&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;让我们一起在AI的海洋中探索，发现更多可能！&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s explore together in the ocean of AI and discover more possibilities!&lt;/p&gt;
 </description>
         </item>
         

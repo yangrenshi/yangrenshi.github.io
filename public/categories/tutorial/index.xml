@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tutorial on Xiaoji AI Learning</title>
+        <link>http://localhost:1313/categories/tutorial/</link>
+        <description>Recent content in Tutorial on Xiaoji AI Learning</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Artificial Intelligence Beginner&#39;s Guide</title>
+        <link>http://localhost:1313/post/ai-introduction/</link>
+        <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/ai-introduction/</guid>
+        <description>&lt;img src="http://localhost:1313/img/first.jpg" alt="Featured image of post Artificial Intelligence Beginner&#39;s Guide" /&gt;&lt;h2 id=&#34;what-is-artificial-intelligence&#34;&gt;What is Artificial Intelligence?
+&lt;/h2&gt;&lt;p&gt;Artificial Intelligence (AI) is a science that studies how to make computers simulate and demonstrate human intelligence. It includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Computer Vision&lt;/li&gt;
+&lt;li&gt;Expert Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;main-application-areas-of-ai&#34;&gt;Main Application Areas of AI
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Natural Language Processing&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Translation&lt;/li&gt;
+&lt;li&gt;Speech Recognition&lt;/li&gt;
+&lt;li&gt;Text Generation&lt;/li&gt;
+&lt;li&gt;Question Answering Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Computer Vision&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Image Recognition&lt;/li&gt;
+&lt;li&gt;Object Detection&lt;/li&gt;
+&lt;li&gt;Face Recognition&lt;/li&gt;
+&lt;li&gt;Video Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robotics&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Industrial Robots&lt;/li&gt;
+&lt;li&gt;Service Robots&lt;/li&gt;
+&lt;li&gt;Autonomous Driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-to-start-learning-ai&#34;&gt;How to Start Learning AI?
+&lt;/h2&gt;&lt;h3 id=&#34;1-basic-knowledge-preparation&#34;&gt;1. Basic Knowledge Preparation
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Python Programming&lt;/li&gt;
+&lt;li&gt;Mathematical Foundation (Linear Algebra, Probability Statistics, Calculus)&lt;/li&gt;
+&lt;li&gt;Data Structures and Algorithms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-entry-framework-learning&#34;&gt;2. Entry Framework Learning
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;TensorFlow&lt;/li&gt;
+&lt;li&gt;PyTorch&lt;/li&gt;
+&lt;li&gt;scikit-learn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-practical-projects&#34;&gt;3. Practical Projects
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Image Classification&lt;/li&gt;
+&lt;li&gt;Text Analysis&lt;/li&gt;
+&lt;li&gt;Predictive Models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommended-learning-resources&#34;&gt;Recommended Learning Resources
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Online Courses&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Coursera Machine Learning Course&lt;/li&gt;
+&lt;li&gt;Andrew Ng&amp;rsquo;s Deep Learning Specialization&lt;/li&gt;
+&lt;li&gt;Fast.ai Practical Course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recommended Books&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Deep Learning&amp;rdquo; (Goodfellow, Bengio, Courville)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Machine Learning in Action&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Python Machine Learning&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Practice Platforms&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kaggle&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;Google Colab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;future-outlook&#34;&gt;Future Outlook
+&lt;/h2&gt;&lt;p&gt;AI technology is developing rapidly and will play an important role in more fields in the future:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Medical Diagnosis&lt;/li&gt;
+&lt;li&gt;Smart Manufacturing&lt;/li&gt;
+&lt;li&gt;Personalized Education&lt;/li&gt;
+&lt;li&gt;Environmental Protection&lt;/li&gt;
+&lt;li&gt;Scientific Research&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-suggestions&#34;&gt;Learning Suggestions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Progress step by step, build a solid foundation&lt;/li&gt;
+&lt;li&gt;Combine theory with practice&lt;/li&gt;
+&lt;li&gt;Participate in open source projects&lt;/li&gt;
+&lt;li&gt;Follow cutting-edge developments&lt;/li&gt;
+&lt;li&gt;Persist in learning and sharing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;rsquo;s explore and grow together in the world of AI!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

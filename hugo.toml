@@ -3,6 +3,30 @@ languageCode = 'zh-cn'
 title = '小机学AI'
 theme = 'stack'
 
+# 多语言配置
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    weight = 1
+    title = "小机学AI"
+    [languages.zh-cn.params]
+      subtitle = "探索AI的无限可能"
+      emoji = "🤖"
+    
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Xiaoji AI Learning"
+    [languages.en.params]
+      subtitle = "Exploring the Infinite Possibilities of AI"
+      emoji = "🤖"
+
+# 语言切换器配置
+[params.languageSwitcher]
+  enable = true
+  showName = true
+  showFlag = false
+
 [params]
   mainSections = ['post']
   featuredImageField = 'image'
@@ -34,30 +58,71 @@ theme = 'stack'
     local = true
     src = "img/avatar.png"
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "首页"
-    url = "/"
-    weight = -100
-    [menu.main.params]
-      icon = "home"
+# 中文菜单
+[[languages.zh-cn.menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = -100
+  [languages.zh-cn.menu.main.params]
+    icon = "home"
 
-  [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about"
-    weight = -90
-    [menu.main.params]
-      icon = "user"
+[[languages.zh-cn.menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about"
+  weight = -90
+  [languages.zh-cn.menu.main.params]
+    icon = "user"
 
-  [[menu.main]]
-    identifier = "search"
-    name = "搜索"
-    url = "/search"
-    weight = -70
-    [menu.main.params]
-      icon = "search"
+[[languages.zh-cn.menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search"
+  weight = -70
+  [languages.zh-cn.menu.main.params]
+    icon = "search"
+
+[[languages.zh-cn.menu.main]]
+  identifier = "language"
+  name = "English"
+  url = "/en/"
+  weight = -60
+  [languages.zh-cn.menu.main.params]
+    icon = "language"
+
+# 英文菜单
+[[languages.en.menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/en/"
+  weight = -100
+  [languages.en.menu.main.params]
+    icon = "home"
+
+[[languages.en.menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/en/about"
+  weight = -90
+  [languages.en.menu.main.params]
+    icon = "user"
+
+[[languages.en.menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/en/search"
+  weight = -70
+  [languages.en.menu.main.params]
+    icon = "search"
+
+[[languages.en.menu.main]]
+  identifier = "language"
+  name = "中文"
+  url = "/"
+  weight = -60
+  [languages.en.menu.main.params]
+    icon = "language"
 
 [taxonomies]
   tag = "tags"

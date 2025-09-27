@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 小机学AI</title>
-        <link>http://localhost:52204/tags/</link>
-        <description>Recent content in Tags on 小机学AI</description>
+        <title>Tags on Xiaoji AI Learning</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Recent content in Tags on Xiaoji AI Learning</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52204/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AI</title>
-        <link>http://localhost:52204/tags/ai/</link>
+        <link>http://localhost:1313/tags/ai/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/tags/ai/</guid>
+        <guid>http://localhost:1313/tags/ai/</guid>
         <description></description>
         </item>
         <item>
-        <title>入门指南</title>
-        <link>http://localhost:52204/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
+        <title>Beginner Guide</title>
+        <link>http://localhost:1313/tags/beginner-guide/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
+        <guid>http://localhost:1313/tags/beginner-guide/</guid>
         <description></description>
         </item>
         <item>
-        <title>博客</title>
-        <link>http://localhost:52204/tags/%E5%8D%9A%E5%AE%A2/</link>
+        <title>Blog</title>
+        <link>http://localhost:1313/tags/blog/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/tags/%E5%8D%9A%E5%AE%A2/</guid>
+        <guid>http://localhost:1313/tags/blog/</guid>
         <description></description>
         </item>
         <item>
-        <title>机器学习</title>
-        <link>http://localhost:52204/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+        <title>Deep Learning</title>
+        <link>http://localhost:1313/tags/deep-learning/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+        <guid>http://localhost:1313/tags/deep-learning/</guid>
         <description></description>
         </item>
         <item>
-        <title>深度学习</title>
-        <link>http://localhost:52204/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
+        <title>Machine Learning</title>
+        <link>http://localhost:1313/tags/machine-learning/</link>
         <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:52204/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
+        <guid>http://localhost:1313/tags/machine-learning/</guid>
         <description></description>
         </item>
         

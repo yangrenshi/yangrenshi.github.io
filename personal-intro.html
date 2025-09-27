@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaoji AI Learning - Personal Introduction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .intro-text {
+            font-size: 1.1em;
+            color: #34495e;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #34495e;
+            margin: 20px 0 15px 0;
+            font-size: 1.2em;
+        }
+
+        .about-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about-list li {
+            padding: 8px 0;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .service-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .service-item h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .service-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-item li {
+            padding: 5px 0;
+            color: #34495e;
+        }
+
+        .contact-info {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        .contact-info h2 {
+            color: white;
+            margin-bottom: 20px;
+            border: none;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .contact-list li {
+            font-size: 1.1em;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+
+        .contact-list li:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .highlight {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-img">🤖</div>
+            <h1>Xiaoji AI Learning</h1>
+            <p class="subtitle">Exploring the Infinite Possibilities of AI</p>
+            <p class="intro-text">
+                Hello! I'm Xiaoji AI Learning, a passionate AI technology learner and practitioner born in the 2000s.
+                I'm dedicated to exploring the fascinating world of artificial intelligence and sharing knowledge with
+                others.
+            </p>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <h2>About Me</h2>
+                <ul class="about-list">
+                    <li>🎓 Senior student majoring in Robotics</li>
+                    <li>🏆 Recipient of provincial and national scholarships</li>
+                    <li>📍 Location: Mianyang, Sichuan, China</li>
+                    <li>💡 Lifelong learner with great enthusiasm for AI</li>
+                </ul>
+
+                <h3>Personal Achievements</h3>
+                <ul class="about-list">
+                    <li>📝 Articles with 100k+ views</li>
+                    <li>🎥 Video content with 1M+ views</li>
+                    <li>📈 Level 7 AI certification on Zhihu</li>
+                    <li>🌟 AI WeChat public account with traffic monetization in 3 days</li>
+                    <li>💰 5-figure side income and knowledge monetization within half a month</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>What I Can Offer You</h2>
+
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h4>📚 Learning Resources</h4>
+                        <ul>
+                            <li>AI basic knowledge explanations</li>
+                            <li>Deep learning framework tutorials</li>
+                            <li>Practical AI project practices</li>
+                            <li>AI industry news and trend analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-item">
+                        <h4>💻 Technical Services</h4>
+                        <ul>
+                            <li>Program development</li>
+                            <li>Custom AI applications</li>
+                            <li>Technical documentation writing</li>
+                            <li>Technical consultation</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-item">
+                        <h4>🎯 Training Services</h4>
+                        <ul>
+                            <li>Custom AI prompt engineering</li>
+                            <li>Systematic AI large model learning</li>
+                            <li>Intelligent agent column courses</li>
+                            <li>Zhihu training camps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Professional Skills</h2>
+
+                <h3>AI Field</h3>
+                <ul class="about-list">
+                    <li>Large language model applications and development</li>
+                    <li>AI prompt engineering</li>
+                    <li>Intelligent agent system development</li>
+                    <li>GPT/Claude and other model applications</li>
+                </ul>
+
+                <h3>Technical Stack</h3>
+                <ul class="about-list">
+                    <li>Deep learning frameworks (TensorFlow, PyTorch)</li>
+                    <li>Machine learning algorithms</li>
+                    <li>Python programming</li>
+                    <li>Robotics technology</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Personal Vision</h2>
+                <ul class="about-list">
+                    <li>Help more beginners enter the AI field</li>
+                    <li>Grow together with excellent self-media peers</li>
+                    <li>Promote the popularization and development of AI technology</li>
+                    <li>Become a socially responsible entrepreneur</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><span class="highlight">Motto:</span> "One day without learning makes me feel uncomfortable."</p>
+            <p>The possibilities in life are infinite. Let's explore and grow together in the world of AI!</p>
+            <p style="margin-top: 20px; font-size: 0.9em;">© 2024 Xiaoji AI Learning - Built with ❤️ and AI</p>
+        </div>
+    </div>
+</body>
+
+</html>
