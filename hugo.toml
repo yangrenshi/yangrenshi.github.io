@@ -76,6 +76,14 @@ theme = 'stack'
     icon = "user"
 
 [[languages.zh-cn.menu.main]]
+  identifier = "user-agreement"
+  name = "用户协议"
+  url = "/user-agreement"
+  weight = -80
+  [languages.zh-cn.menu.main.params]
+    icon = "file-text"
+
+[[languages.zh-cn.menu.main]]
   identifier = "search"
   name = "搜索"
   url = "/search"
@@ -107,6 +115,14 @@ theme = 'stack'
   weight = -90
   [languages.en.menu.main.params]
     icon = "user"
+
+[[languages.en.menu.main]]
+  identifier = "user-agreement"
+  name = "User Agreement"
+  url = "/user-agreement"
+  weight = -80
+  [languages.en.menu.main.params]
+    icon = "file-text"
 
 [[languages.en.menu.main]]
   identifier = "search"
