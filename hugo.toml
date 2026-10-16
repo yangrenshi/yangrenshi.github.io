@@ -27,6 +27,9 @@ theme = 'stack'
   showName = true
   showFlag = false
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   mainSections = ['post']
   featuredImageField = 'image'
