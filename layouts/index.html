@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="{{ if eq .Language.Lang "en" }}en{{ else }}zh-CN{{ end }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if eq .Language.Lang "en" }}Xiaoji | AI Solopreneur · Full-Stack Architect · ZhanJiHui Founder{{ else }}小机 (Xiaoji) | AI超级个体 · 商业落地架构师 · 战机会主理人{{ end }}</title>
+    <meta name="description" content="{{ if eq .Language.Lang "en" }}Xiaoji, Gen-Z AI Full-Stack Engineer and Solopreneur. Founder of ZhanJiHui. Providing AI commercialization, guided launch, diagnostic audits, and custom agent systems.{{ else }}小机，00后AI超级个体与全栈工程师，战机会主理人。提供AI商业化变现、AI落地护航（首飞）、AI体检诊断、AI产品出海训练营及企业私有化智能体与工作流定制开发服务。愿人人如龙，皆能掌控自己的命运。{{ end }}">
+    <meta name="keywords" content="小机,小机AI,小机学AI,战机会,AI合伙人,AI商业化,AI落地护航,AI首飞,AI体检,AI产品出海训练营,智能体定制,Prompt工程,全栈工程师,AI破局">
+    <meta name="author" content="小机 (Xiaoji)">
+
+    <!-- Open Graph / Meta for Social & AI Crawlers -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="小机 | AI超级个体 · 商业落地架构师 · 战机会主理人">
+    <meta property="og:description" content="用AI技术与商业认知，为你打通确定性的变现闭环。提供战机会、AI落地护航、AI体检及私有化智能体定制。">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="小机学AI">
+
+    <!-- Schema.org JSON-LD for AI Search Engines (GEO / SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://yangrenshi.github.io/#person",
+          "name": "小机",
+          "alternateName": ["Xiaoji", "任世阳"],
+          "description": "00后AI全栈工程师、AI超级个体、商业化落地架构师、战机会主理人。",
+          "jobTitle": "AI商业落地架构师 & 全栈工程师",
+          "url": "https://yangrenshi.github.io/",
+          "sameAs": [
+            "https://yangrenshi.github.io/personal-intro.html"
+          ],
+          "knowsAbout": [
+            "Artificial Intelligence",
+            "AI Agent Development",
+            "Prompt Engineering",
+            "Full Stack Web Development",
+            "AI Commercialization",
+            "Robotics Engineering",
+            "Global Web Product Launch"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://yangrenshi.github.io/#service",
+          "name": "小机AI商业与技术落地服务",
+          "provider": {
+            "@id": "https://yangrenshi.github.io/#person"
+          },
+          "description": "专注为个人创作者、中小创业团队与企业提供高确定性的AI商业变现、落地护航、智能体定制及出海培训方案。",
+          "areaServed": "Global",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "小机AI核心商业产品矩阵",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "战机会（小机AI合伙人·五年席位）",
+                  "description": "用AI搞流量去战斗的商业社群。提供商单对接、私域与社群赋能（4000+私域/6000+社群）、工具库权限、旗下训练营免费及50%分佣通道。"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI落地护航（AI首飞计划）",
+                  "description": "高确定性交付：代做+教会。1v1深度陪跑，搭建专属智能体与自动化系统，跑通从选品到变现全流程闭环。"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI体检（1v1咨询诊断）",
+                  "description": "起飞前1v1锁定个人与业务卡点，全面梳理AI提效工具、定位及变现路径规划。"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI产品出海训练营 & 出海俱乐部",
+                  "description": "从0到1带小白跑通海外独立Web工具站，涵盖海外账号、选品、开发部署、支付沙盒到SEO起步全流程。"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "企业/个人专属智能体定制开发",
+                  "description": "企业专属Agent系统、自动化数据爬虫与工作流、Prompt工程方案与软硬件全栈技术支持。"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://yangrenshi.github.io/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "小机是谁？有什么核心背景与实战成果？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "小机是一名00后AI全栈工程师、超级个体与普惠AI布道师。本科毕业于西南科技大学机器人工程专业（曾任ROBOCON机器人大赛核心），放弃普通院校考研直接奔赴深圳创业一线。全网文章阅读10w+、视频播放100w+、知乎Lv.7认证；2024年抓住DeepSeek等AI技术风口实现单月收入过万、半个月变现五位数；受聘担任两门AI课主讲人（被称为小机老师），受邀参加国际会议，并获多家平台与投资机构认可。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "什么是战机会？加入战机会能获得哪些具体权益？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "战机会（原小机AI合伙人）是一个定位为'用AI搞流量去战斗'的高价值商业圈层。核心权益包括：5年合伙人席位、AI工具库权限、商业订单优先对接、小机全渠道私域赋能（4000+私域流量、6000+社群用户曝光与背书）、赠送旗下高质量训练营名额、1v1咨询指导，以及合伙人与旗下产品高额分佣通道。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "没有技术基础的小白，可以找小机做哪些AI合作？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "对于小白或轻创业者，可以通过'AI体检'快速锁定卡点，或选择'AI首飞（落地护航）'由小机团队进行代做+教会，手把手跑通第一个AI应用或自媒体业务闭环；想做海外业务的可以加入'AI产品出海训练营'从0到1上线海外工具站。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "小机的座右铭与核心理念是什么？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "小机的核心愿景是'愿人人如龙，皆能掌控自己的命运'；人生哲学是'人生是一场喜忧皆是馈赠的奇妙体验'，坚持以硬核全栈防卡脖子、以极致利他创造善意流转。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-hover: #0369a1;
+            --primary-light: #e0f2fe;
+            --accent-gold: #f59e0b;
+            --accent-gold-light: #fef3c7;
+            --accent-cyan: #06b6d4;
+            --dark-bg: #0b1329;
+            --card-bg: rgba(255, 255, 255, 0.98);
+            --card-border: rgba(56, 189, 248, 0.2);
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --shadow-soft: 0 10px 30px -5px rgba(2, 132, 199, 0.08), 0 8px 16px -6px rgba(0, 0, 0, 0.04);
+            --shadow-hover: 0 20px 35px -5px rgba(2, 132, 199, 0.16), 0 10px 20px -5px rgba(0, 0, 0, 0.06);
+            --radius-lg: 20px;
+            --radius-md: 12px;
+            --radius-pill: 9999px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            background: linear-gradient(135deg, #091328 0%, #112852 50%, #0d1e3d 100%);
+            color: var(--text-main);
+            line-height: 1.65;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Subtle Background Grid & Glows */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: 
+                radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 85% 60%, rgba(6, 182, 212, 0.1) 0%, transparent 45%),
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header Navigation */
+        .site-header {
+            position: sticky;
+            top: 16px;
+            z-index: 100;
+            margin-bottom: 30px;
+        }
+
+        .nav-inner {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            border-radius: var(--radius-pill);
+            padding: 12px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 800;
+            font-size: 1.15rem;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-avatar-icon {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, #0284c7, #06b6d4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 10px rgba(2, 132, 199, 0.35);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #475569;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .lang-switch {
+            background: rgba(2, 132, 199, 0.08);
+            border: 1px solid rgba(2, 132, 199, 0.2);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: var(--radius-pill);
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-switch:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .nav-cta-btn {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: white;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: var(--radius-pill);
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .nav-cta-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(2, 132, 199, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 56px 48px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-badge-wrap {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 14px;
+            border-radius: var(--radius-pill);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .badge-primary {
+            background: var(--primary-light);
+            color: var(--primary-hover);
+            border: 1px solid rgba(2, 132, 199, 0.2);
+        }
+
+        .badge-gold {
+            background: var(--accent-gold-light);
+            color: #b45309;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .badge-cyan {
+            background: #ecfeff;
+            color: #0891b2;
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+
+        .hero-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #0f172a;
+            margin-bottom: 16px;
+            letter-spacing: -0.03em;
+        }
+
+        .hero-title-highlight {
+            background: linear-gradient(135deg, #0284c7 0%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: #334155;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .hero-desc {
+            font-size: 1.05rem;
+            color: #475569;
+            max-width: 860px;
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: var(--radius-pill);
+            font-size: 1rem;
+            font-weight: 600;
+            box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(2, 132, 199, 0.45);
+        }
+
+        .btn-secondary {
+            background: #ffffff;
+            color: #0f172a;
+            text-decoration: none;
+            padding: 13px 26px;
+            border-radius: var(--radius-pill);
+            font-size: 1rem;
+            font-weight: 600;
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        /* Proof & Numbers Bar */
+        .proof-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .proof-card {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-md);
+            padding: 24px 20px;
+            text-align: center;
+            box-shadow: var(--shadow-soft);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .proof-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .proof-num {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #0284c7;
+            line-height: 1.1;
+            margin-bottom: 6px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .proof-num-gold {
+            color: #d97706;
+        }
+
+        .proof-label {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 4px;
+        }
+
+        .proof-sub {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* Section Title Style */
+        .section-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            color: #0284c7;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 4px 16px;
+            border-radius: var(--radius-pill);
+            letter-spacing: 0.05em;
+            margin-bottom: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .section-title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 10px;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        /* Core Business Matrix Grid */
+        .business-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        .biz-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            box-shadow: var(--shadow-soft);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .biz-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: rgba(56, 189, 248, 0.5);
+        }
+
+        .biz-card-featured {
+            border: 2px solid #0284c7;
+            position: relative;
+        }
+
+        .biz-ribbon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: var(--radius-pill);
+            box-shadow: 0 3px 8px rgba(245, 158, 11, 0.4);
+        }
+
+        .biz-header {
+            margin-bottom: 20px;
+        }
+
+        .biz-type-badge {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #0284c7;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+
+        .biz-name {
+            font-size: 1.55rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .biz-tagline {
+            font-size: 0.95rem;
+            color: #475569;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .biz-body {
+            margin-bottom: 24px;
+        }
+
+        .biz-detail-item {
+            margin-bottom: 14px;
+        }
+
+        .biz-detail-label {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #64748b;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .biz-deliverables {
+            list-style: none;
+            padding: 0;
+        }
+
+        .biz-deliverables li {
+            font-size: 0.95rem;
+            color: #334155;
+            padding: 4px 0 4px 22px;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .biz-deliverables li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            color: #0284c7;
+            font-weight: 800;
+        }
+
+        .biz-target-user {
+            background: #f8fafc;
+            border-left: 3px solid #0284c7;
+            padding: 10px 14px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.88rem;
+            color: #334155;
+            margin-top: 14px;
+        }
+
+        .biz-footer {
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .biz-price-box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .biz-price-title {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            font-weight: 600;
+        }
+
+        .biz-price-val {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: #0f172a;
+        }
+
+        .biz-cta-btn {
+            background: #0f172a;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: var(--radius-pill);
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .biz-card-featured .biz-cta-btn {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+        }
+
+        .biz-cta-btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.95;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Technical & Enterprise Solutions Block */
+        .tech-solutions-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            margin-bottom: 48px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .sol-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 24px 20px;
+            transition: all 0.25s ease;
+        }
+
+        .sol-item:hover {
+            background: #ffffff;
+            border-color: #0284c7;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .sol-icon {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        .sol-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .sol-desc {
+            font-size: 0.9rem;
+            color: #475569;
+            line-height: 1.6;
+        }
+
+        /* Two-Column About & Skills Section */
+        .details-layout {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 28px;
+            margin-bottom: 48px;
+        }
+
+        .detail-panel {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .detail-panel h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .timeline-list {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .timeline-list::before {
+            content: '';
+            position: absolute;
+            left: 4px;
+            top: 6px;
+            bottom: 6px;
+            width: 2px;
+            background: #e2e8f0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 18px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #0284c7;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px #0284c7;
+        }
+
+        .timeline-title {
+            font-size: 0.98rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .timeline-text {
+            font-size: 0.88rem;
+            color: #64748b;
+            margin-top: 2px;
+            line-height: 1.5;
+        }
+
+        /* Skills Tags */
+        .skill-group {
+            margin-bottom: 20px;
+        }
+
+        .skill-group-name {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #334155;
+            margin-bottom: 8px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background: #f1f5f9;
+            color: #334155;
+            padding: 4px 12px;
+            border-radius: var(--radius-pill);
+            font-size: 0.82rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        .skill-tag-highlight {
+            background: var(--primary-light);
+            color: #0369a1;
+            border-color: rgba(2, 132, 199, 0.25);
+            font-weight: 600;
+        }
+
+        /* FAQ Section */
+        .faq-panel {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            margin-bottom: 48px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .faq-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 22px;
+        }
+
+        .faq-q {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .faq-q-mark {
+            color: #0284c7;
+            font-weight: 900;
+        }
+
+        .faq-a {
+            font-size: 0.92rem;
+            color: #475569;
+            line-height: 1.65;
+        }
+
+        /* Core Philosophy & Motto */
+        .philosophy-banner {
+            background: linear-gradient(135deg, rgba(2, 132, 199, 0.95), rgba(15, 23, 42, 0.95));
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            color: white;
+            text-align: center;
+            margin-bottom: 48px;
+            box-shadow: 0 15px 35px rgba(2, 132, 199, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .philosophy-banner h3 {
+            font-size: 1.9rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+            letter-spacing: 0.02em;
+        }
+
+        .philosophy-banner p {
+            font-size: 1.1rem;
+            color: #e2e8f0;
+            max-width: 760px;
+            margin: 0 auto 20px;
+            line-height: 1.7;
+        }
+
+        .philosophy-tags {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .philo-pill {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            padding: 6px 16px;
+            border-radius: var(--radius-pill);
+            font-size: 0.88rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        /* Contact & CTA Card */
+        .contact-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-lg);
+            padding: 44px 40px;
+            margin-bottom: 48px;
+            box-shadow: var(--shadow-soft);
+            text-align: center;
+        }
+
+        .contact-channels {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+
+        .contact-channel-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 24px 28px;
+            min-width: 260px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .contact-channel-item:hover {
+            border-color: #0284c7;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .channel-icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        .channel-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 4px;
+        }
+
+        .channel-val {
+            font-size: 0.95rem;
+            color: #0284c7;
+            font-weight: 700;
+            margin-bottom: 8px;
+            user-select: all;
+        }
+
+        .channel-tip {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* Footer */
+        .site-footer {
+            text-align: center;
+            padding: 24px 0 40px;
+            color: #94a3b8;
+            font-size: 0.88rem;
+        }
+
+        .site-footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            .proof-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .business-grid {
+                grid-template-columns: 1fr;
+            }
+            .solutions-grid {
+                grid-template-columns: 1fr;
+            }
+            .details-layout {
+                grid-template-columns: 1fr;
+            }
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero {
+                padding: 32px 20px;
+            }
+            .hero-title {
+                font-size: 1.85rem;
+            }
+            .proof-grid {
+                grid-template-columns: 1fr;
+            }
+            .nav-inner {
+                padding: 10px 18px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .contact-channels {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .contact-channel-item {
+                min-width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Navigation -->
+        <header class="site-header">
+            <nav class="nav-inner" aria-label="Main Navigation">
+                <a href="#top" class="nav-brand">
+                    <span class="nav-avatar-icon">🤖</span>
+                    <span>小机 · AI超级个体</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#services">商业业务</a></li>
+                    <li><a href="#achievements">实战背书</a></li>
+                    <li><a href="#solutions">定制开发</a></li>
+                    <li><a href="#about">关于小机</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                    <li><a href="/post/">博客文章</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="lang-switch" id="langToggle" onclick="toggleLanguage()">EN / 中文</button>
+                    <a href="#contact" class="nav-cta-btn">业务合作</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <main>
+            <section class="hero" id="top">
+                <div class="hero-badge-wrap">
+                    <span class="hero-badge badge-primary">🚀 AI超级个体</span>
+                    <span class="hero-badge badge-gold">🏆 战机会主理人</span>
+                    <span class="hero-badge badge-cyan">⚡ 商业化落地架构师</span>
+                </div>
+                <h1 class="hero-title" id="heroTitle">
+                    用 AI 技术与商业认知，<br>
+                    为你打通<span class="hero-title-highlight">高确定性的变现闭环</span>
+                </h1>
+                <p class="hero-subtitle" id="heroSubtitle">
+                    小机（Xiaoji）｜ 00后全栈工程师 · 普惠AI布道师 · 战机会主理人
+                </p>
+                <p class="hero-desc" id="heroDesc">
+                    专注大模型智能体（Agent）开发、AI自动化工作流定制与个人商业变现赋能。曾任ROBOCON机器人大赛核心、软硬件全栈极速自研；抓住DeepSeek等风口单月收入过万，受聘两门AI课主讲人。拒绝纸上谈兵，以“代做+教会”的高标准交付，助力创作者与企业用AI打胜仗。
+                </p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn-primary" id="btnExploreServices">
+                        <span>🔥 探索商业合作矩阵</span>
+                        <span>→</span>
+                    </a>
+                    <a href="#contact" class="btn-secondary" id="btnBookConsult">
+                        <span>💬 预约 1v1 业务诊断</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Proof & Milestones Data Grid -->
+            <section class="proof-grid" id="achievements">
+                <div class="proof-card">
+                    <div class="proof-num">10w+</div>
+                    <div class="proof-label">优质图文深度阅读</div>
+                    <div class="proof-sub">持续输出高含金量AI提示词与变现</div>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-num proof-num-gold">100w+</div>
+                    <div class="proof-label">单视频全网播放量</div>
+                    <div class="proof-sub">精准自媒体流量捕猎与爆款操盘能力</div>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-num">Lv.7</div>
+                    <div class="proof-label">知乎AI领域高权重认证</div>
+                    <div class="proof-sub">获腾讯新闻等多家平台入驻邀约</div>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-num proof-num-gold">5位数</div>
+                    <div class="proof-label">风口单月高客单商业变现</div>
+                    <div class="proof-sub">受聘两门AI课主讲“小机老师”</div>
+                </div>
+            </section>
+
+            <!-- Core Business & Products Section -->
+            <section class="section-area" id="services">
+                <div class="section-header">
+                    <span class="section-tag">BUSINESS MATRIX</span>
+                    <h2 class="section-title">核心商业产品与交付矩阵</h2>
+                    <p class="section-subtitle">从认知诊断、实战陪跑、出海变现到五年圈层托举，提供体系化商业赋能</p>
+                </div>
+
+                <div class="business-grid">
+                    <!-- Product 1: 战机会 (Featured) -->
+                    <article class="biz-card biz-card-featured">
+                        <span class="biz-ribbon">核心旗舰 · 五年席位</span>
+                        <div class="biz-header">
+                            <span class="biz-type-badge">顶层商业圈层 / 社群</span>
+                            <h3 class="biz-name">战机会（小机AI合伙人）</h3>
+                            <p class="biz-tagline">“上战机，拿战绩；用AI搞流量去战斗。” 整合AI优质资源与商单通道的长期战斗阵地。</p>
+                        </div>
+                        <div class="biz-body">
+                            <div class="biz-detail-item">
+                                <div class="biz-detail-label">核心交付权益</div>
+                                <ul class="biz-deliverables">
+                                    <li><strong>五年长期席位</strong>：深度链接小机核心技术圈与一线自媒体同频战友</li>
+                                    <li><strong>公私域全方位赋能</strong>：4000+私域背书、6000+社群用户曝光与业务互推</li>
+                                    <li><strong>商单与项目优先对接</strong>：AI业务孵化、投资机构对接与新项目合伙</li>
+                                    <li><strong>个人成长加速器</strong>：不限次预约1v1业务咨询、旗下训练营免费参训</li>
+                                    <li><strong>高额分佣机制</strong>：合伙人及旗下所有产品享受50%高额分佣通道</li>
+                                </ul>
+                            </div>
+                            <div class="biz-target-user">
+                                <strong>适合谁：</strong>想认真做AI/自媒体/轻创业，需要优质圈层、专业技术托底与商单分佣渠道的创业者与超级个体。
+                            </div>
+                        </div>
+                        <div class="biz-footer">
+                            <div class="biz-price-box">
+                                <span class="biz-price-title">当前合伙人席位</span>
+                                <span class="biz-price-val">¥1499 <small style="font-size:0.8rem;color:#64748b;">/ 五年</small></span>
+                            </div>
+                            <a href="#contact" class="biz-cta-btn">申请合伙人席位</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 2: AI首飞 / 落地护航 -->
+                    <article class="biz-card">
+                        <div class="biz-header">
+                            <span class="biz-type-badge">高确定性交付 · 实战陪跑</span>
+                            <h3 class="biz-name">AI落地护航（AI首飞计划）</h3>
+                            <p class="biz-tagline">“代做 + 教会” 双轨交付，拒绝只有理论的假陪跑，手把手帮你把业务做出来。</p>
+                        </div>
+                        <div class="biz-body">
+                            <div class="biz-detail-item">
+                                <div class="biz-detail-label">核心交付权益</div>
+                                <ul class="biz-deliverables">
+                                    <li><strong>专属系统代做</strong>：小机团队为你定制专属AI智能体、自动化脚本或Web站</li>
+                                    <li><strong>1v1 手把手教会</strong>：拆解所有操作SOP，确保你自己完全掌握后续运维</li>
+                                    <li><strong>落地护航全流程陪伴</strong>：从选品定位、系统部署到商业转化链路打通</li>
+                                    <li><strong>赠送战机会席位</strong>：直通顶层商业社群，享受后续资源与分佣通道</li>
+                                </ul>
+                            </div>
+                            <div class="biz-target-user">
+                                <strong>适合谁：</strong>有明确业务场景或变现想法，但缺乏全栈技术开发与工程落地能力，需要高确定性成果的人士。
+                            </div>
+                        </div>
+                        <div class="biz-footer">
+                            <div class="biz-price-box">
+                                <span class="biz-price-title">首飞落地交付</span>
+                                <span class="biz-price-val">¥3999 <small style="font-size:0.8rem;text-decoration:line-through;color:#94a3b8;">¥4999</small></span>
+                            </div>
+                            <a href="#contact" class="biz-cta-btn">预约首飞护航</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 3: AI体检 -->
+                    <article class="biz-card">
+                        <div class="biz-header">
+                            <span class="biz-type-badge">深度诊断 · 前端咨询</span>
+                            <h3 class="biz-name">AI体检（1v1 卡点排查）</h3>
+                            <p class="biz-tagline">起飞前的一对一深度“体检”，排查你的定位、工具与商业变现盲区。</p>
+                        </div>
+                        <div class="biz-body">
+                            <div class="biz-detail-item">
+                                <div class="biz-detail-label">核心交付权益</div>
+                                <ul class="biz-deliverables">
+                                    <li><strong>1v1 深度语音/视频诊断</strong>：深度剖析你当下的技术与业务现状</li>
+                                    <li><strong>业务卡点精准锁定</strong>：找出为什么不出单、为什么工具用不顺的根本卡点</li>
+                                    <li><strong>定制 AI 落地路线图</strong>：针对性出具工具链搭配建议与自媒体/出海规划</li>
+                                    <li><strong>专属抵扣特权</strong>：后续升级首飞计划或战机会可全额抵扣</li>
+                                </ul>
+                            </div>
+                            <div class="biz-target-user">
+                                <strong>适合谁：</strong>刚进入AI领域感到迷茫、不知如何结合自身业务降本增效，或自媒体转化卡点严重的朋友。
+                            </div>
+                        </div>
+                        <div class="biz-footer">
+                            <div class="biz-price-box">
+                                <span class="biz-price-title">1v1 专项诊断</span>
+                                <span class="biz-price-val">¥199 <small style="font-size:0.8rem;color:#64748b;">/ 次</small></span>
+                            </div>
+                            <a href="#contact" class="biz-cta-btn">立即预约体检</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 4: 出海训练营 & 俱乐部 -->
+                    <article class="biz-card">
+                        <div class="biz-header">
+                            <span class="biz-type-badge">全球化变现 · 0 到 1 实战</span>
+                            <h3 class="biz-name">AI产品出海训练营 & 出海俱乐部</h3>
+                            <p class="biz-tagline">带小白跑通第一个可上线的海外Web工具站，直击全球美金流量与订阅变现。</p>
+                        </div>
+                        <div class="biz-body">
+                            <div class="biz-detail-item">
+                                <div class="biz-detail-label">核心交付权益</div>
+                                <ul class="biz-deliverables">
+                                    <li><strong>四阶段全流程通关</strong>：海外账号准备 → 需求选品 → 建站部署 → 支付沙盒</li>
+                                    <li><strong>可上线的出海站交付</strong>：结营时拥有属于自己的独立海外工具站资产</li>
+                                    <li><strong>GEO / pSEO 实操教学</strong>：Google Search Console、大模型收录优化与海外引流</li>
+                                    <li><strong>进阶出海俱乐部圈层</strong>：多站流水线打法、合规收款、海外社群复盘</li>
+                                </ul>
+                            </div>
+                            <div class="biz-target-user">
+                                <strong>适合谁：</strong>想要拓展海外市场、打造被动收入工具站、跑通国际化流量变现的技术与非技术创作者。
+                            </div>
+                        </div>
+                        <div class="biz-footer">
+                            <div class="biz-price-box">
+                                <span class="biz-price-title">营期及社群</span>
+                                <span class="biz-price-val">实战开营中</span>
+                            </div>
+                            <a href="#contact" class="biz-cta-btn">咨询出海营期</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Enterprise & Custom Technical Solutions -->
+            <section class="tech-solutions-card" id="solutions">
+                <div class="section-header" style="margin-bottom: 16px;">
+                    <span class="section-tag">CUSTOM ENGINEERING</span>
+                    <h2 class="section-title" style="color:#0f172a;">企业与团队专属全栈技术定制</h2>
+                    <p class="section-subtitle">依托扎实的软硬件全栈背景，提供高可靠、低门槛的智能体与系统开发</p>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="sol-item">
+                        <div class="sol-icon">🤖</div>
+                        <h4 class="sol-title">私有化 AI 智能体开发</h4>
+                        <p class="sol-desc">面向企业知识库、客服、私域销售场景定制多智能体协同系统（Agent），打通业务API与企业微信/飞书接入。</p>
+                    </div>
+                    <div class="sol-item">
+                        <div class="sol-icon">⚡</div>
+                        <h4 class="sol-title">AI 自动化工作流与数据爬虫</h4>
+                        <p class="sol-desc">自动化图文生成流水线、竞品监控爬虫、行业信息差汇总系统，大幅替代重复机械劳动，实现百倍提效。</p>
+                    </div>
+                    <div class="sol-item">
+                        <div class="sol-icon">🌐</div>
+                        <h4 class="sol-title">海外 Web 工具站全栈搭建</h4>
+                        <p class="sol-desc">现代响应式前端（React/Vue）、后端接口、Stripe海外合规支付集成及SEO收录优化，提供开箱即用的交付。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Two-Column Details: Story + Skills -->
+            <section class="details-layout" id="about">
+                <!-- Panel 1: Story & Journey -->
+                <article class="detail-panel">
+                    <h2>🎯 关于小机与极客底色</h2>
+                    <p style="color:#475569;margin-bottom:16px;line-height:1.75;">
+                        我叫小机，00后，生于成都，求学绵阳，现居深圳专注于全栈开发与AI超级个体业务。我的成长轨迹由一根坚硬的主线贯穿——<strong>“不向命运妥协，以全栈技术防卡脖子，用AI掌控自己的人生。”</strong>
+                    </p>
+                    
+                    <div class="timeline-list">
+                        <div class="timeline-item">
+                            <div class="timeline-title">极客起点：西南科技大学机器人工程</div>
+                            <div class="timeline-text">加入 ROBOCON 机器人实验室攻坚最硬核的雷达调试与算法。自学软硬件全栈、PCB画板、3D建模，只为任何环节都不受制于人。</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-title">认知觉醒：破局生态与自媒体破局</div>
+                            <div class="timeline-text">听易洋（洋哥）分享刷新认知，遇贵人领进门。首个视频突破百万播放，知乎冲至7级，单月高客单成交破万，打通自媒体托底事业。</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-title">风口捕猎：DeepSeek 窗口爆发</div>
+                            <div class="timeline-text">从一个月花600元清贫省钱的大学生，到抓住大模型提示词红利半个月变现五位数，受聘两门AI课主讲“小机老师”，获投资机构与出书邀约。</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-title">赴深实战：创立战机会与超级个体生态</div>
+                            <div class="timeline-text">放弃普通院校“水硕”，大四下期拎包赴深圳创业一线。打造战机会商业社群，将全栈交付与商业变现深度结合，帮助更多人破局。</div>
+                        </div>
+                    </div>
+
+                    <div style="background:#f1f5f9;border-radius:12px;padding:16px;font-size:0.92rem;color:#334155;">
+                        💡 <strong>为什么选择与小机合作？</strong><br>
+                        懂代码全栈（能写落地），懂流量商业（能拿结果），懂底层痛点（淋过雨更懂撑伞），交付真诚透明、绝不夸大欺瞒。
+                    </div>
+                </article>
+
+                <!-- Panel 2: Technical Stack & Capabilities -->
+                <article class="detail-panel">
+                    <h2>💻 软硬件全栈技能图谱</h2>
+                    
+                    <div class="skill-group">
+                        <div class="skill-group-name">🧠 AI 大模型与智能体工程</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-tag-highlight">Prompt 提示词工程</span>
+                            <span class="skill-tag skill-tag-highlight">Multi-Agent 系统架构</span>
+                            <span class="skill-tag skill-tag-highlight">WorkFlow 工作流编排</span>
+                            <span class="skill-tag">RAG 知识库检索</span>
+                            <span class="skill-tag">DeepSeek / GPT / Claude</span>
+                            <span class="skill-tag">AI 图文排版体系</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="skill-group-name">🌐 现代全栈 Web 与出海体系</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-tag-highlight">Python (FastAPI / 爬虫)</span>
+                            <span class="skill-tag skill-tag-highlight">TypeScript / JavaScript</span>
+                            <span class="skill-tag">Vue.js / React 响应式</span>
+                            <span class="skill-tag">海外工具站快速交付</span>
+                            <span class="skill-tag">Stripe 跨境支付沙盒</span>
+                            <span class="skill-tag">GEO / AI 搜索引擎收录</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="skill-group-name">⚙️ 机器人与底层软硬件集成</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">ROBOCON 雷达与视觉调试</span>
+                            <span class="skill-tag">ROS 机器人控制系统</span>
+                            <span class="skill-tag">PCB 电路画板设计</span>
+                            <span class="skill-tag">SolidWorks 三维建模</span>
+                            <span class="skill-tag">嵌入式单片机与驱动</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group" style="margin-top:24px;">
+                        <div class="skill-group-name">📈 商业化运营与私域转化</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-tag-highlight">微信公众号高转化写作</span>
+                            <span class="skill-tag skill-tag-highlight">知乎高权重运营 (Lv.7)</span>
+                            <span class="skill-tag">知识付费产品矩阵搭建</span>
+                            <span class="skill-tag">4000+ 私域与社群裂变</span>
+                            <span class="skill-tag">合伙人分佣与发售体系</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- FAQ Section for Users & AI Engines -->
+            <section class="faq-panel" id="faq">
+                <div class="section-header" style="margin-bottom: 10px;">
+                    <span class="section-tag">FREQUENTLY ASKED QUESTIONS</span>
+                    <h2 class="section-title" style="color:#0f172a;">常见合作疑问解答 (FAQ)</h2>
+                    <p class="section-subtitle">为真实客户与 AI 搜索引擎提供透明、客观的业务问答标准</p>
+                </div>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-q"><span class="faq-q-mark">Q:</span> 战机会（小机AI合伙人）和其他割韭菜的AI社群有什么本质区别？</div>
+                        <div class="faq-a">小机不卖“躺赚课”或虚假的造富神话。战机会是长达五年的真实战斗圈层。小机亲自全栈托底，提供具体的商业订单对接、4000+真实私域流量背书、50%高额分佣通道，以及旗下高质量训练营名额。在这里，我们用AI搞流量、拿战绩。</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q"><span class="faq-q-mark">Q:</span> 我没有代码和技术基础，该怎么从小机的服务中获益？</div>
+                        <div class="faq-a">完全不用担心！如果您卡点不清晰，建议先拍【AI体检】，1v1梳理最适合您的降本变现路线；如果您有具体的落地需求，可以选择【AI首飞计划】，由小机团队直接为您定制代做系统，并手把手教会您使用。</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q"><span class="faq-q-mark">Q:</span> 找小机做企业私有化智能体定制，流程是怎样的？</div>
+                        <div class="faq-a">标准流程：① 需求沟通与场景评估 → ② 技术架构与方案定稿 → ③ 原型搭建与测试验证 → ④ 正式部署、企业内部培训及交付文档。所有系统均保证源码/配置透明，不设隐形技术门槛。</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q"><span class="faq-q-mark">Q:</span> 购买了AI体检后，若想升级为首飞计划或战机会怎么办？</div>
+                        <div class="faq-a">小机提供专属的阶梯抵扣政策：参加AI体检支付的费用，在升级购买AI首飞计划或战机会合伙人席位时，均可按实际金额全额抵扣，绝不让信任小机的伙伴多花一分冤枉钱。</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Philosophy & Mission Banner -->
+            <section class="philosophy-banner">
+                <h3>“愿人人如龙，皆能掌控自己的命运”</h3>
+                <p>
+                    人生是一场奇妙的体验，无论悲喜，皆是馈赠。以游戏化自驱心智将硬核任务通关；站在宇宙尺度积极释怀，将百分之百的精力投入到确定性的技术与商业中。因为自己淋过雨，所以更想为人撑伞。
+                </p>
+                <div class="philosophy-tags">
+                    <span class="philo-pill"># 游戏化心智</span>
+                    <span class="philo-pill"># 科学逆熵</span>
+                    <span class="philo-pill"># 防卡脖子自研</span>
+                    <span class="philo-pill"># 善意流转</span>
+                    <span class="philo-pill"># 极致利他</span>
+                </div>
+            </section>
+
+            <!-- Contact & Conversion Card -->
+            <section class="contact-card" id="contact">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h2 style="font-size:2rem;font-weight:800;color:#0f172a;margin-bottom:8px;">立即链接小机 · 开启商业合作</h2>
+                <p style="color:#64748b;max-width:600px;margin:0 auto;">
+                    无论是战机会加入、1v1咨询体检、AI首飞落地，还是企业级智能体定制，随时欢迎直接沟通。
+                </p>
+
+                <div class="contact-channels">
+                    <div class="contact-channel-item">
+                        <div class="channel-icon">💬</div>
+                        <div class="channel-name">微信私域 / 商务直通</div>
+                        <div class="channel-val">添加小机微信</div>
+                        <div class="channel-tip">请备注：【业务咨询 / 合伙人 / 商务合作】</div>
+                    </div>
+
+                    <div class="contact-channel-item">
+                        <div class="channel-icon">📰</div>
+                        <div class="channel-name">官方公众号</div>
+                        <div class="channel-val">小机AI大模型</div>
+                        <div class="channel-tip">持续输出高含金量提示词与商业化复盘</div>
+                    </div>
+
+                    <div class="contact-channel-item">
+                        <div class="channel-icon">🎁</div>
+                        <div class="channel-name">免费 AI 入门礼包</div>
+                        <div class="channel-val">公众号后台回复“资料”</div>
+                        <div class="channel-tip">免费领取小机整理的精选 AI 落地资源</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>© 2026 小机学AI (Xiaoji) · 保留所有权利</p>
+            <p style="margin-top:6px;">
+                <a href="/post/">博客文章</a> · 
+                <a href="/about/">详细履历与自传</a> · 
+                <a href="/user-agreement/">服务协议</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Script: Simple & Clean Language Toggle -->
+    <script>
+        let isEnglish = {{ if eq .Language.Lang "en" }}true{{ else }}false{{ end }};
+        const translations = {
+            zh: {
+                heroTitle: '用 AI 技术与商业认知，<br>为你打通<span class="hero-title-highlight">高确定性的变现闭环</span>',
+                heroSubtitle: '小机（Xiaoji）｜ 00后全栈工程师 · 普惠AI布道师 · 战机会主理人',
+                heroDesc: '专注大模型智能体（Agent）开发、AI自动化工作流定制与个人商业变现赋能。曾任ROBOCON机器人大赛核心、软硬件全栈极速自研；抓住DeepSeek等风口单月收入过万，受聘两门AI课主讲人。拒绝纸上谈兵，以“代做+教会”的高标准交付，助力创作者与企业用AI打胜仗。',
+                btnExploreServices: '🔥 探索商业合作矩阵 →',
+                btnBookConsult: '💬 预约 1v1 业务诊断',
+                langBtn: 'EN / 中文'
+            },
+            en: {
+                heroTitle: 'Unlocking <span class="hero-title-highlight">High-Certainty Monetization</span><br>with AI Tech & Business Acumen',
+                heroSubtitle: 'Xiaoji | AI Solopreneur · Full-Stack Architect · ZhanJiHui Founder',
+                heroDesc: 'Dedicated to AI Agent architecture, workflow automation, and solopreneur commercialization. Former ROBOCON robotics core engineer with end-to-end hardware/software capabilities. Capitalized on the DeepSeek wave achieving 5-figure monthly monetization and served as instructor for two flagship AI courses. Delivering tangible outcomes through our "Build + Coach" methodology.',
+                btnExploreServices: '🔥 Explore Business Matrix →',
+                btnBookConsult: '💬 Book 1v1 Consultation',
+                langBtn: '中文 / EN'
+            }
+        };
+
+        if (isEnglish) {
+            document.addEventListener('DOMContentLoaded', function() {
+                const t = translations.en;
+                document.getElementById('heroTitle').innerHTML = t.heroTitle;
+                document.getElementById('heroSubtitle').innerHTML = t.heroSubtitle;
+                document.getElementById('heroDesc').innerHTML = t.heroDesc;
+                document.getElementById('btnExploreServices').innerHTML = t.btnExploreServices;
+                document.getElementById('btnBookConsult').innerHTML = t.btnBookConsult;
+                document.getElementById('langToggle').innerHTML = t.langBtn;
+            });
+        }
+
+        function toggleLanguage() {
+            isEnglish = !isEnglish;
+            const t = isEnglish ? translations.en : translations.zh;
+            document.getElementById('heroTitle').innerHTML = t.heroTitle;
+            document.getElementById('heroSubtitle').innerHTML = t.heroSubtitle;
+            document.getElementById('heroDesc').innerHTML = t.heroDesc;
+            document.getElementById('btnExploreServices').innerHTML = t.btnExploreServices;
+            document.getElementById('btnBookConsult').innerHTML = t.btnBookConsult;
+            document.getElementById('langToggle').innerHTML = t.langBtn;
+            document.documentElement.lang = isEnglish ? 'en' : 'zh-CN';
+        }
+    </script>
+</body>
+
+</html>
