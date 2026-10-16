@@ -1,4 +1,5 @@
 baseURL = 'https://yangrenshi.github.io/'
+defaultContentLanguage = 'zh-cn'
 languageCode = 'zh-cn'
 title = '小机学AI'
 theme = 'stack'

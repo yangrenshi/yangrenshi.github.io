@@ -1491,7 +1491,7 @@
 
     <!-- Script: Simple & Clean Language Toggle -->
     <script>
-        let isEnglish = {{ if eq .Language.Lang "en" }}true{{ else }}false{{ end }};
+        let isEnglish = false;
         const translations = {
             zh: {
                 heroTitle: '用 AI 技术与商业认知，<br>为你打通<span class="hero-title-highlight">高确定性的变现闭环</span>',
@@ -1510,18 +1510,6 @@
                 langBtn: '中文 / EN'
             }
         };
-
-        if (isEnglish) {
-            document.addEventListener('DOMContentLoaded', function() {
-                const t = translations.en;
-                document.getElementById('heroTitle').innerHTML = t.heroTitle;
-                document.getElementById('heroSubtitle').innerHTML = t.heroSubtitle;
-                document.getElementById('heroDesc').innerHTML = t.heroDesc;
-                document.getElementById('btnExploreServices').innerHTML = t.btnExploreServices;
-                document.getElementById('btnBookConsult').innerHTML = t.btnBookConsult;
-                document.getElementById('langToggle').innerHTML = t.langBtn;
-            });
-        }
 
         function toggleLanguage() {
             isEnglish = !isEnglish;
