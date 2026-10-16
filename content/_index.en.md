@@ -1,48 +1,47 @@
 ---
 title: "Xiaoji AI Learning"
-description: "Exploring the Infinite Possibilities of AI"
-date: 2024-03-19
+description: "AI Solopreneur · Commercialization Architect · ZhanJiHui Founder"
+date: 2026-09-15
 ---
 
-# Welcome to Xiaoji AI Learning Blog
+# Welcome to Xiaoji AI Learning
 
-Hello! I'm Xiaoji AI Learning, a passionate AI technology learner and practitioner born in the 2000s.
+Hello! I'm **Xiaoji (小机)**, a Gen-Z AI Full-Stack Engineer, Solopreneur, and Founder of ZhanJiHui, based in Shenzhen.
 
-## About Me
+> **"May everyone flourish like dragons, fully mastering their own destiny."**  
+> Dedicated to unlocking high-certainty monetization through cutting-edge AI technology and strategic business acumen.
 
-- 🎓 Senior student majoring in Robotics
-- 🏆 Recipient of provincial and national scholarships
-- 📍 Location: Mianyang, Sichuan
-- 💡 Lifelong learner with great enthusiasm for AI
+---
 
-## What I Can Offer You
+## Quick Navigation
 
-### 📚 Learning Resources
-- AI basic knowledge explanations
-- Deep learning framework usage tutorials
-- Practical AI project practices
-- AI industry news and trend analysis
+- 🚀 **[Explore: Xiaoji Standalone Showcase & Portfolio (Newly Upgraded)](/personal-intro.html)**
+- 📖 **[Deep Dive: About Me (Full Journey & Business Matrix)](/about/)**
+- 🤝 **[Partner with Xiaoji & Commercial Services](/about/#commercial-products--business-matrix)**
 
-### 💻 Technical Services
-- Program development
-- Custom AI applications
-- Technical documentation writing
-- Technical consultation
+---
 
-### 🎯 Training Services
-- Custom AI prompt engineering
-- Systematic AI large model learning
-- Intelligent agent column courses
-- Zhihu training camps
+## Core Commercial & Service Offerings
 
-## Latest Articles
+### 🚀 ZhanJiHui (Xiaoji AI Partner · 5-Year Membership)
+- High-value commercial community & traffic-fighting mastermind;
+- 5-year partnership, priority project dispatch, 4,000+ private WeChat distribution, and 50% commission channel.
 
-Welcome to browse my blog articles to learn about the latest developments and practical experiences in AI technology.
+### ⚡ AI Guided Launch (AI Maiden Flight Plan)
+- **"Build + Coach"** dual methodology: turnkey custom AI Agents and automation systems with end-to-end operational handoff.
 
-## Contact Information
+### 🔍 AI Health Check (1v1 Diagnostic Consultation)
+- Strategic 1v1 diagnostic to audit workflows and pinpoint monetization bottlenecks before takeoff.
 
-- 📰 WeChat Public Account: 小机AI大模型
-- 🏪 Xiaoji Store: AI resource exchange
-- 💼 Business cooperation: Please contact through WeChat public account
+### 🌐 AI Global Product Bootcamp & Overseas Club
+- 0 to 1 hands-on guidance to launch live global Web tools and capture USD subscription revenue.
 
-Let's explore and grow together in the world of AI!
+### 🛠️ Enterprise & Bespoke Engineering
+- Turnkey custom AI Agent architecture, web crawlers, automated workflows, and full-stack software/hardware solutions.
+
+---
+
+## Contact & Business Collaboration
+
+- 📰 **WeChat Official Account**: 小机AI大模型
+- 💬 **Business Inquiries**: Please reach out via our Official Account or connect via WeChat.
